@@ -5,7 +5,7 @@ const option = {
                 connectTimeoutMS: 30000,
                 useNewUrlParser: true,
               };
-var dbURI ='mongodb+srv://mongoFilm:Bebitos2013@clusterapimovies-v32xr.mongodb.net/test?retryWrites=true&w=majority'
+var dbURI ='mongodb+srv://mongoFilm:********@clusterapimovies-v32xr.mongodb.net/test?retryWrites=true&w=majority'
 mongoose.connect(dbURI);
 
 mongoose.connection.on('connected', function () {
